@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://dannyhuly.github.io/gh-pages-react",
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
@@ -13,7 +14,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "serve:build": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
