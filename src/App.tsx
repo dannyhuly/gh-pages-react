@@ -13,7 +13,7 @@ class App extends Component {
         <AppBar position="static" color="default">
           <Toolbar>
             <Typography variant="h6" color="inherit">
-              GitHub Pages React - POC
+              (POC) GitHub Pages, React, Typescript
           </Typography>
           </Toolbar>
         </AppBar>
